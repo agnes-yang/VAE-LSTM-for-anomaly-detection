@@ -1,4 +1,4 @@
-from base import BaseTrain
+from .base import BaseTrain
 import numpy as np
 import matplotlib.pylab as plt
 from matplotlib.pyplot import savefig

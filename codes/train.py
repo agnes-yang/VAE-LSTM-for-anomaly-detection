@@ -1,9 +1,9 @@
 import os
 import tensorflow as tf
-from data_loader import DataGenerator
-from models import VAEmodel, lstmKerasModel
-from trainers import vaeTrainer
-from utils import process_config, create_dirs, get_args, save_config
+from .data_loader import DataGenerator
+from .models import VAEmodel, lstmKerasModel
+from .trainers import vaeTrainer
+from .utils import process_config, create_dirs, get_args, save_config
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"   # see issue #152
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 

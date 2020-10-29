@@ -1,4 +1,4 @@
-from base import BaseDataGenerator
+from .base import BaseDataGenerator
 import numpy as np
 import matplotlib.pylab as plt
 from matplotlib.pyplot import savefig
